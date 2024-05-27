@@ -1,3 +1,4 @@
+
 /* --------- Global style */
 
 body {
@@ -101,7 +102,7 @@ body {
 
 .btn--big {
     padding-top: 10px;
-    border-radius: 50%; 
+    border-radius: 50%;
     background-color: white;
     border: 10px solid;
     width: 100px;
@@ -112,7 +113,7 @@ body {
 }
 
 .btn--big::after{
-    content:attr(data-type);
+    content: attr(data-type);
     font-size: 1rem;
     color: #445361;
     position: relative;
